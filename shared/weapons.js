@@ -1,7 +1,9 @@
 export const WEAPONS = [
     {
         id: 0,
+        directoryId: 1,
         name: "Raider Axe",
+        featured: true,
         type: "Fine Bearded Axe",
         description: "Used by Norse raiders to spread mayhem as quickely and lethally as possible.",
         stats: {
@@ -20,7 +22,9 @@ export const WEAPONS = [
     },
     {
         id: 1,
-        name: "Raider Axe",
+        directoryId: 1,
+        name: "Raider Axe 2",
+        featured: false,
         type: "Fine Bearded Axe",
         description: "Used by Norse raiders to spread mayhem as quickely and lethally as possible.",
         stats: {
@@ -39,7 +43,9 @@ export const WEAPONS = [
     },
     {
         id: 2,
+        directoryId: 1,
         name: "Raider Axe",
+        featured: false,
         type: "Fine Bearded Axe",
         description: "Used by Norse raiders to spread mayhem as quickely and lethally as possible.",
         stats: {
@@ -58,7 +64,9 @@ export const WEAPONS = [
     },
     {
         id: 3,
+        directoryId: 1,
         name: "Raider Axe",
+        featured: false,
         type: "Fine Bearded Axe",
         description: "Used by Norse raiders to spread mayhem as quickely and lethally as possible.",
         stats: {
